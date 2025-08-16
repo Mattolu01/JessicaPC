@@ -1,0 +1,11 @@
+body{
+    background-color: hsl(0, 0%, 8%)
+}
+div{ background: hsl(0, 0%, 12%);
+    width: 40%;
+     margin: auto;
+     padding: 20px;
+     border-radius: 20px;
+}
+img{border-radius: 200px;
+margin-left: 35%;}
