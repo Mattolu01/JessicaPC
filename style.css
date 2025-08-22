@@ -1,11 +1,54 @@
-body{
+body {
     background-color: hsl(0, 0%, 8%)
 }
-div{ background: hsl(0, 0%, 12%);
-    width: 40%;
-     margin: auto;
-     padding: 20px;
-     border-radius: 20px;
+
+.container {
+    background: hsl(0, 0%, 12%);
+    width: 15%;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 10%;
+
 }
-img{border-radius: 200px;
-margin-left: 35%;}
+
+img {
+    position: absolute;
+    left: 73px;
+    right: 75px;
+    border-radius: 200px;
+    /* margin-left: 10%; */
+    transform: translateX(2%);
+    width: 100px;
+
+}
+
+
+
+h2 {
+    margin-top: 60%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    /* background-color: brown;
+    border-radius: 30px; */
+}
+
+h4 {
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: center;
+    color: hsl(75, 94%, 57%)
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+}
