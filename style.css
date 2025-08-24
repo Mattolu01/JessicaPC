@@ -5,7 +5,7 @@ body {
 .container {
     background: hsl(0, 0%, 12%);
     width: 15%;
-    height: 350px;
+    height: 370px;
     margin: auto;
     padding: 20px;
     border-radius: 20px;
@@ -19,12 +19,8 @@ img {
     left: 73px;
     right: 75px;
     border-radius: 200px;
-    /* margin-left: 10%; */
-    transform: translateX(2%);
     width: 100px;
-
 }
-
 
 
 h2 {
@@ -32,8 +28,6 @@ h2 {
     margin-bottom: 0px;
     text-align: center;
     color: hsl(0, 0%, 100%);
-    /* background-color: brown;
-    border-radius: 30px; */
 }
 
 h4 {
@@ -48,7 +42,7 @@ p {
     font-weight: bold;
     font-size: 14px;
     text-align: center;
-
+    border: 4px solid hsl(0, 0%, 20%);
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
 }
